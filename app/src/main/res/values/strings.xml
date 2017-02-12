@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Xprocre</string>
+    <string name="navigate">Next Page</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Drawer_Closed">Closed</string>
+    <string name="Opened_drawer">Open</string>
+    <string name="title_activity_sub2">sub2</string>
+    <string-array name="tabs">
+        <item>Tab 1</item>
+        <item>Tab 2</item>
+        <item>Tab 3</item>
+    </string-array>
+</resources>

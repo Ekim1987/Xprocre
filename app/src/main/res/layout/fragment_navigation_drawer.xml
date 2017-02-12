@@ -1,0 +1,40 @@
+<org.lucasr.dspec.DesignSpecFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+  >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.user.xprocure.NavigationDrawerFragment"
+        android:background="@color/accent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary"
+            android:id="@+id/containerDrawerImage">
+
+            <ImageView
+                android:id="@+id/ImageView"
+                android:layout_width="280dp"
+                android:layout_height="140dp"
+                android:paddingEnd="180dp"
+                android:src="@drawable/e"
+                android:layout_alignParentTop="true" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/drwaerList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/containerDrawerImage"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+</org.lucasr.dspec.DesignSpecFrameLayout>
+
+

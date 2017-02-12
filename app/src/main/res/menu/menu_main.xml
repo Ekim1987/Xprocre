@@ -1,0 +1,29 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http//schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    tools:context="com.example.user.xprocre.MainActivity"
+
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Intent"
+        android:orderInCategory="100"
+        android:title="OPen"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/navigate"
+        android:title="@string/navigate"
+        android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:orderInCategory="200"
+        app:showAsAction="always"/>
+
+
+</menu>
